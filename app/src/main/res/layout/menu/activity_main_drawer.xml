@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/agenda"
+            android:icon="@drawable/librito"
+            android:title="Agenda" />
+        <item
+            android:id="@+id/asignaturas"
+            android:icon="@drawable/asignaturas"
+            android:title="Asignatuas" />
+        <item
+            android:id="@+id/profesores"
+            android:icon="@drawable/agregar"
+            android:title="Profesores" />
+        <item
+            android:id="@+id/calculadora"
+            android:icon="@drawable/calculo"
+            android:title="Calculadora" />
+    </group>
+
+    <item android:title="Contactanos">
+        <menu>
+            <item
+                android:id="@+id/contactanos"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Desarrolladores" />
+
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Inicio">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="LogoQuiz"
+            android:textColor="@color/colorAccent"
+            android:fontFamily="serif"
+            android:textSize="50dp"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="60dp"
+            />
+
+
+        <EditText
+            android:id="@+id/usu"
+            android:layout_marginTop="20dp"
+            android:layout_width="290dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="40dp"
+            android:hint="Usuario"
+          />
+
+        <EditText
+            android:id="@+id/pass"
+            android:layout_width="290dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="30dp"
+            android:hint="Contraseña"
+            android:password="true"
+
+            />
+
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/mostrar"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="35dp"
+
+
+                />
+          <TextView
+              android:layout_marginTop="20dp"
+              android:layout_width="match_parent"
+              android:layout_height="40dp"
+              android:text="Mostrar contraseña"
+              />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/pasar"
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="40dp"
+                android:text="INICIAR SESIÓN"/>
+
+            <Button
+                android:id="@+id/registro"
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="20dp"
+                android:text="REGISTRARSE"
+
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="90dp"
+            android:orientation="horizontal"
+            >
+
+            <ImageView
+                android:layout_marginTop="30dp"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:src="@drawable/logo2"/>
+
+
+
+            <ImageView
+                android:layout_marginTop="30dp"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:src="@drawable/nbc"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
